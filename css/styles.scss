@@ -1,0 +1,133 @@
+/*----------------------------------------------------------------*/
+/* - Variables
+/*-----------------------------------------------------------------*/
+ 
+$orange: #e4502e;
+$blue: #4378a0;
+$yellow: #edb931;
+$crystalblue: #d3e6f1;
+$black: #525252;
+
+/*---------------------------------------------------------*/
+/* - Typography
+/*---------------------------------------------------------*/
+ 
+h1,h2,h3,h4,h5,h6 {
+font-family: 'Cinzel Decorative', cursive;      
+color: $orange;
+}
+ 
+body, p, li {
+font-family: 'Roboto', sans-serif;          
+font-size: 18px;
+line-height:1.6em;
+color: $black;
+}
+
+/*------------------------------------------------*/
+/* - Header
+/*-------------------------------------------------*/
+#masthead{
+    padding-top: 20px;
+}
+/*header {
+    /*------------Only if needed ------------------
+    background-color:rgb(211, 230, 241, 0.05);
+    
+    /* ------------Only if needed -----------------
+}*/
+/*-----------------------------------------------------------------------------------*/
+/* - Primary menu
+/*-----------------------------------------------------------------------------------*/
+ 
+#primary-menu {
+display:flex;
+justify-content: flex-end;
+    li {
+    padding: 0 30px;
+    li:last-child {
+    padding-right: 0;    
+    }
+    a {
+    font-family: 'Roboto', serif;  
+    color: $orange;
+    font-size: 17px;
+    font-weight: bold;
+    transition: 0.3s ease all;
+    }
+    a:hover {
+    color: $yellow;  
+    transform: scale(1.2);  
+        }
+    }
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* - Main Content
+/*-----------------------------------------------------------------------------------*/
+body{
+background-color: $crystalblue;
+}
+a {
+    color: $blue;
+    text-decoration: none;
+}
+a:hover {
+color: $yellow;    
+}
+ 
+a:visited {
+color: inherit;    
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* - Front Page Content
+/*-----------------------------------------------------------------------------------*/
+
+.custom-homepage-container{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 8rem;
+}
+.custom-homepage-container h2{
+    font-family: 'Roboto', serif;
+    font-size: 1.3rem;
+    color: $blue;
+}
+
+body.home.page-id-5{
+    background-image: url("../img/front-page-bgd2.png");
+    background-size: cover;
+}
+/*-----------------------------------------------------------------------------------*/
+/* - Work Content
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/* - About Content
+/*-----------------------------------------------------------------------------------*/
+body.page-id-16{
+    background-image: url("../img/about-page.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* - Blog Content
+/*-----------------------------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------------------------*/
+/* - Footer Content
+/*-----------------------------------------------------------------------------------*/
+footer {
+    text-align:center;
+    padding-top: 10rem;
+}
+footer h6 {
+    font-family: 'Roboto', serif;
+    line-height: 1.0rem;
+}
+.copyright span{
+    color: $blue;
+}

@@ -1,0 +1,128 @@
+/*----------------------------------------------------------------*/
+/* - Variables
+/*-----------------------------------------------------------------*/
+/*---------------------------------------------------------*/
+/* - Typography
+/*---------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Cinzel Decorative", cursive;
+  color: #e4502e;
+}
+
+body, p, li {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 1.6em;
+  color: #525252;
+}
+
+/*------------------------------------------------*/
+/* - Header
+/*-------------------------------------------------*/
+#masthead {
+  padding-top: 20px;
+}
+
+/*header {
+    /*------------Only if needed ------------------
+    background-color:rgb(211, 230, 241, 0.05);
+
+    /* ------------Only if needed -----------------
+}*/
+/*-----------------------------------------------------------------------------------*/
+/* - Primary menu
+/*-----------------------------------------------------------------------------------*/
+#primary-menu {
+  display: flex;
+  justify-content: flex-end;
+}
+#primary-menu li {
+  padding: 0 30px;
+}
+#primary-menu li li:last-child {
+  padding-right: 0;
+}
+#primary-menu li a {
+  font-family: "Roboto", serif;
+  color: #e4502e;
+  font-size: 17px;
+  font-weight: bold;
+  transition: 0.3s ease all;
+}
+#primary-menu li a:hover {
+  color: #edb931;
+  transform: scale(1.2);
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* - Main Content
+/*-----------------------------------------------------------------------------------*/
+body {
+  background-color: #d3e6f1;
+}
+
+a {
+  color: #4378a0;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #edb931;
+}
+
+a:visited {
+  color: inherit;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* - Front Page Content
+/*-----------------------------------------------------------------------------------*/
+.custom-homepage-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.custom-homepage-container h2 {
+  font-family: "Roboto", serif;
+  font-size: 1.3rem;
+  color: #4378a0;
+}
+
+body.home.page-id-5 {
+  background-image: url("../img/front-page-bgd2.png");
+  background-size: cover;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* - Work Content
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/* - About Content
+/*-----------------------------------------------------------------------------------*/
+body.page-id-16 {
+  background-image: url("../img/about-page.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* - Blog Content
+/*-----------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------*/
+/* - Footer Content
+/*-----------------------------------------------------------------------------------*/
+footer {
+  text-align: center;
+  padding-top: 10rem;
+}
+
+footer h6 {
+  font-family: "Roboto", serif;
+  line-height: 1rem;
+}
+
+.copyright span {
+  color: #4378a0;
+}
