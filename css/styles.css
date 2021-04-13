@@ -23,6 +23,10 @@ body, p, li {
   padding-top: 20px;
 }
 
+img.custom-logo {
+  width: 65%;
+}
+
 /*header {
     /*------------Only if needed ------------------
     background-color:rgb(211, 230, 241, 0.05);
@@ -81,7 +85,8 @@ a:visited {
   display: flex;
   justify-content: center;
   text-align: center;
-  padding-top: 8rem;
+  padding-top: 10rem;
+  padding-bottom: 16rem;
 }
 
 .custom-homepage-container h2 {
@@ -103,6 +108,7 @@ body.home.page-id-5 {
 /*-----------------------------------------------------------------------------------*/
 div.wpforms-container-full .wpforms-form textarea.wpforms-field-large {
   width: 125%;
+  border-radius: 5%;
 }
 
 div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form textarea.wpforms-field-large, div.wpforms-container-full .wpforms-form button[type=submit] {
@@ -143,4 +149,8 @@ footer h6 {
 
 .copyright span {
   color: #4378a0;
+}
+
+footer#colophon.site-footer {
+  padding-top: 1rem;
 }
