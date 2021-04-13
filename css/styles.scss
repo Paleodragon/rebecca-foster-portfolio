@@ -113,8 +113,9 @@ body.home.page-id-5{
 /*-----------------------------------------------------------------------------------*/
 /* - Contact Content
 /*-----------------------------------------------------------------------------------*/
-.about-page.container{
-    
+.contact-page.container{
+    padding-bottom: 1rem;
+    padding-top: 2rem;
 }
 
 div.wpforms-container-full .wpforms-form textarea.wpforms-field-large{
@@ -141,7 +142,9 @@ body.page-id-16{
     background-repeat:no-repeat;
 
 }
-
+div.about-page.container{
+    padding-bottom: 6rem;
+}
 /*-----------------------------------------------------------------------------------*/
 /* - Blog Content
 /*-----------------------------------------------------------------------------------*/

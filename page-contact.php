@@ -6,7 +6,7 @@ This page is used to display the about page.
 get_header(); ?>
 
 
-<div class="about-page container">
+<div class="contact-page container">
     
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post();
