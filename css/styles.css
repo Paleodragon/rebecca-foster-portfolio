@@ -99,6 +99,24 @@ body.home.page-id-5 {
 /* - Work Content
 /*-----------------------------------------------------------------------------------*/
 /*-----------------------------------------------------------------------------------*/
+/* - Contact Content
+/*-----------------------------------------------------------------------------------*/
+div.wpforms-container-full .wpforms-form textarea.wpforms-field-large {
+  width: 125%;
+}
+
+div.wpforms-container-full .wpforms-form input[type=email], div.wpforms-container-full .wpforms-form textarea.wpforms-field-large, div.wpforms-container-full .wpforms-form button[type=submit] {
+  border: 2px solid #e4502e;
+  background-color: #eee6d0;
+  font-family: "Roboto", serif;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+  background-color: #4378a0;
+  color: #edb931;
+}
+
+/*-----------------------------------------------------------------------------------*/
 /* - About Content
 /*-----------------------------------------------------------------------------------*/
 body.page-id-16 {
