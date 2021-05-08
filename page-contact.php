@@ -1,5 +1,5 @@
 <?php /* 
-This page is used to display the about page. 
+This page is used to display the contact page. 
 */
  
 // Fetch theme header template
